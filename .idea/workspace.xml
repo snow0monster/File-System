@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77197098-4010-460a-ad0c-fd0fa701e224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2071033c-d7e8-424b-b8bb-1759bb639aef.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/a_s.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Administrator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Browser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Client$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Client$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/DataProcessing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Doc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/MainGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Operator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Server$ServerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/common/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/FileFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/FileFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/FileFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/FileFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/FileFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/LoginFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/LoginFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/LoginFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/MainFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/SelfFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/SelfFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/SelfFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/多线程实验/frame/UserFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/DataProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Doc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/MainGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frame/FileFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frame/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frame/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frame/SelfFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frame/UserFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多线程实验.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="document@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="document@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/MainGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/User.java" />
+        <option value="$PROJECT_DIR$/src/用户类/DataProcessing.java" />
+        <option value="$PROJECT_DIR$/src/用户类/User.java" />
+        <option value="$PROJECT_DIR$/src/用户类/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/用户类/Browser.java" />
+        <option value="$PROJECT_DIR$/src/用户类/Operator.java" />
+        <option value="$PROJECT_DIR$/src/用户类/test.java" />
+        <option value="$PROJECT_DIR$/src/command/Browser.java" />
+        <option value="$PROJECT_DIR$/src/command/Doc.java" />
+        <option value="$PROJECT_DIR$/src/command/DataProcessing.java" />
+        <option value="$PROJECT_DIR$/src/command/Test.java" />
+        <option value="$PROJECT_DIR$/src/command/Operator.java" />
+        <option value="$PROJECT_DIR$/src/command/User.java" />
+        <option value="$PROJECT_DIR$/src/command/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/frame/fileFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/loginFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/mainFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/selfFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/userFrame.java" />
+        <option value="$PROJECT_DIR$/src/common/SQLtest.java" />
+        <option value="$PROJECT_DIR$/多线程实验.iml" />
+        <option value="$PROJECT_DIR$/src/common/Sever.java" />
+        <option value="$PROJECT_DIR$/src/common/SeverTest.java" />
+        <option value="$PROJECT_DIR$/src/common/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/common/ServerTest.java" />
+        <option value="$PROJECT_DIR$/src/common/Doc.java" />
+        <option value="$PROJECT_DIR$/src/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/common/Browser.java" />
+        <option value="$PROJECT_DIR$/src/common/User.java" />
+        <option value="$PROJECT_DIR$/src/common/Operator.java" />
+        <option value="$PROJECT_DIR$/src/frame/FileFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/LoginFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/SelfFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/MainFrame.java" />
+        <option value="$PROJECT_DIR$/src/frame/UserFrame.java" />
+        <option value="$PROJECT_DIR$/src/common/Administrator.java" />
+        <option value="$PROJECT_DIR$/src/common/DocServer.java" />
+        <option value="$PROJECT_DIR$/src/common/DocClient.java" />
+        <option value="$PROJECT_DIR$/src/common/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/common/Client.java" />
+        <option value="$PROJECT_DIR$/src/common/Server1.java" />
+        <option value="$PROJECT_DIR$/src/common/DataProcessing.java" />
+        <option value="$PROJECT_DIR$/src/common/Main.java" />
+        <option value="$PROJECT_DIR$/src/common/Server.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="多线程实验" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程实验" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="多线程实验" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程实验" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="多线程实验" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程实验" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="多线程实验" type="b2602c69:ProjectViewProjectNode" />
+              <item name="多线程实验" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="zhx" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGUI">
+    <configuration name="MainGUI" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.MainGUI" />
+      <module name="多线程实验" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common.Server" />
+      <module name="多线程实验" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainGUI" />
+      <item itemvalue="Application.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="783" height="832" extended-state="0" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14002828" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3499289" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15558699" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32904148" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3026874" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.40311173" />
+      <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.33428982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32972974" />
+      <window_info anchor="right" id="Database" order="5" weight="0.21351351" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.18230563" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.14002828" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.39745402" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15558699" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3026874" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49932975" weight="0.25884017" />
+      <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Console" order="13" visible="true" weight="0.33428982" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.21380697" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/columns_priv" />
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/component" />
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/component.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5a3c3eb4-1ca5-4921-b4b1-c92d1ccfa0ba/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/password_history" />
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/tables_priv" />
+    <entry file="das://2071033c-d7e8-424b-b8bb-1759bb639aef/schema/mysql/table/user" />
+    <entry file="file://$PROJECT_DIR$/src/common/ClientTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/common/ServerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/common/SQLtest.java" />
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第六周/源程序/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第六周/源程序/ServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第六周/源程序/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="24" column="63" lean-forward="true" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="251" column="18" selection-start-line="251" selection-start-column="18" selection-end-line="251" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="312" column="13" selection-start-line="312" selection-start-column="13" selection-end-line="312" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/test/Test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="430" column="25" selection-start-line="430" selection-start-column="25" selection-end-line="430" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="271" column="39" selection-start-line="271" selection-start-column="39" selection-end-line="271" selection-end-column="39" />
+          <folding>
+            <element signature="e#9721#9722#0" expanded="true" />
+            <element signature="e#9774#9775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/多线程实验.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/多线程实验/frame/LoginFrame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#5067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="209" column="18" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/SelfFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="141" column="26" lean-forward="true" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4498#4499#0" expanded="true" />
+            <element signature="e#4539#4540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/UserFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4218">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Doc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第七周/源程序/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第七周/源程序/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="61" lean-forward="true" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第七周/源程序/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/实验文件/Java多线程实验/第七周/源程序/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="579" column="16" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Server1.java" />
+    <entry file="file://$PROJECT_DIR$/src/frame/FileFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3895">
+          <caret line="205" column="23" lean-forward="true" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/87fcd7dc-61a2-45f1-a005-6c4f6606e9ff/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/DataProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="104" column="16" lean-forward="true" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>多线程实验</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
